@@ -8,6 +8,11 @@ export default function CourseReview()
     const handleOptionClick = (option) => {
       setSelectedOption(option);
     };
+
+    const [isVisibleShow, setIsVisibleShow] = useState(false);
+    const toggleshowVisibility = () => {
+      setIsVisibleShow(!isVisibleShow);
+    };
     return(
         <div className="backcolo-dev">
         <Navbar></Navbar>
@@ -452,11 +457,75 @@ export default function CourseReview()
                                         <p className="txtstart5-font2">0</p>
                                     </div>
                                 </div>
-
-
-                                {/* <div className="review-btn2"></div> */}
-                                </>
                                 
+                                <a
+                                type="text"
+                                href="###"
+                                 onClick={toggleshowVisibility} >
+                                    {isVisibleShow ? '' : ''}
+                                    <p className='txtallshowrv'>Show all reviews 
+                                    <img src="./image/showall.png"></img>
+                                    </p>
+                                </a>
+                                {isVisibleShow && (
+                                    <div>
+                                        <img src="./image/imgrv.png" className="imgshow-rv"></img>
+                                        <p className="txtshow-rv">Nam Hoang</p>
+                                        <img src="./image/Group 94.png" className="imgrv-star"></img>
+                                        <p className="imgalldate-show">August 4, 2020 at 1:30 pm</p>
+                                        <p className="txtshow-cmtrv">
+                                        Vivamus volutpat eros pulvinar velit laoreet, 
+                                        sit amet egestas erat dignissim. Sed quis rutrum tellus, 
+                                        sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum.
+                                        Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque.
+                                        Pellentesque tristique 
+                                        </p>
+                                        <div className="showcmt2">
+                                            <img src="./image/imgrv.png" className="imgshow-rv"></img>
+                                            <p className="txtshow-rv">Nam Hoang</p>
+                                            <img src="./image/Group 94.png" className="imgrv-star"></img>
+                                            <p className="imgalldate-show">August 4, 2020 at 1:30 pm</p>
+                                            <p className="txtshow-cmtrv">
+                                            Vivamus volutpat eros pulvinar velit laoreet, 
+                                            sit amet egestas erat dignissim. Sed quis rutrum tellus, 
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum.
+                                            Nam nulla ipsum, venenatis malesuada felis quis, ultricies convallis neque.
+                                            Pellentesque tristique 
+                                            </p>
+                                        </div> 
+                                        <div className="showcmt3">
+                                             <img src="./image/imgrv.png" className="imgshow-rv2"></img>
+                                            <p className="txtshow-rv2">Nga Nguyen</p>
+                                            <p className="imgalldate-show2">August 4, 2020 at 1:30 pm</p>
+                                            <p className="txtshow-cmtrv2">
+                                            Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas erat dignissim. 
+                                            Sed quis rutrum tellus, 
+                                            sit amet viverra felis. Cras sagittis sem sit amet urna
+                                            </p>
+                                        </div>
+                                       
+                                    </div> 
+                                )}
+                               
+                                <div className={isVisibleShow ? '' : ''}  >
+                                     <div>
+                                        <p className="txtleav-rv">Leave a Review</p>
+                                        <p className="txtleav-rv-mess">Message</p>
+                                        <textarea className="txtmess-rvleav"></textarea>
+                                        <p className="txtvote">Vote</p>
+                                        <img src="./image/Group 149.png" className="imggr149"></img>
+                                        <p className="txtstartsfoot"> (stars) </p>
+
+                                        <a 
+                                        href="/"
+                                        type="button"
+                                        className="btn-send"
+                                        >
+                                            <p className="txtsend">Send</p>
+                                        </a>
+                                     </div>
+                                </div> 
+                            </>
                             )}
 
                             

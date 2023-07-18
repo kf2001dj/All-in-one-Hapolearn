@@ -818,3 +818,200 @@
 .font-stardev {
     margin-top: -3px;
 }
+
+.txtallshowrv {
+    margin-left: 20px;
+    margin-top: 60px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.txtallshowrv img {
+   margin-left: 10px;
+}
+
+.imgshow-rv {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.txtshow-rv {
+    margin-top: -30px;
+    margin-left: 80px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.imgrv-star {
+    margin-left: 190px;
+    margin-top: -80px;
+}
+
+.imgalldate-show {
+    margin-left: 320px;
+    margin-top: -57px;
+    color: #BDB9B9;
+    font-family: UTM BryantLG;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.txtshow-cmtrv {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 820px;
+    height: 80px;
+    color: #949292;
+    font-family: UTM BryantLG;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+}
+
+.showcmt2 {
+    margin-top: 50px;
+}
+
+.showcmt3 {
+    margin-top: 30px;
+}
+
+.imgshow-rv2 {
+    margin-left: 100px;
+}
+
+.txtshow-rv2 {
+    margin-top: -30px;
+    margin-left: 160px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.imgalldate-show2 {
+    margin-top: -34px;
+    margin-left: 300px;
+    color: #BDB9B9;
+    font-family: UTM BryantLG;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.txtshow-cmtrv2 {
+    width: 650px;
+    height: 54px;
+    margin-left: 160px;
+    color: #949292;
+    font-family: UTM BryantLG;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+
+.txtleav-rv {
+    margin-top: 70px;
+    margin-left: 20px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+
+.txtleav-rv-mess {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #747474;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.txtmess-rvleav {
+    width: 820px;
+    height: 123px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 2px solid #EFEFEF;
+    background: #FFF;
+}
+
+.txtvote {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #505353;
+    font-family: UTM BryantLG;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.44px;
+}
+
+.imggr149 {
+    margin-left: 100px;
+    margin-top: -87px;
+}
+
+.txtstartsfoot {
+    margin-top: -63px;
+    margin-left: 240px;
+    color: #747474;
+    font-family: UTM BryantLG;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+.btn-send {
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-top: -30px;
+    margin-left: 770px;
+    width: 80px;
+    height: 30px;
+    border-radius: 22px;
+    background: #B2D235;
+    box-shadow: 0px 1.5px 2px 0px #6F8710 inset;
+}
+
+.txtsend {
+    color: #FFF;
+    font-family: UTM BryantLG;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
