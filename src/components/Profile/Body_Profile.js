@@ -12,25 +12,21 @@ export default function Body_Profile()
                     <p className='pro-textone'>Võ Hoài Nam</p>
                     <p className='pro-texttwo'>namvh@gmail.com</p>
                     <div className='pro-btnadone'></div>
-
                     <div className='pro-day'>
                         <img src='./image/sn.png' className='img-pro-sn'></img>
                         <p className='txt-daypro'>10/10/2998</p>
                     </div>
                     <div className='btn-pro-sn'></div>
-
                     <div className='pro-phon'>
                         <img src='./image/phonblu.png' className='img-pro-phon'></img>
                         <p className='txt-phonpro'>0123456789</p>
                     </div>
                     <div className='btn-pro-sn'></div>
-
                     <div className='pro-home'>
                         <img src='./image/homeblu.png' className='img-pro-home'></img>
                         <p className='txt-homepro'>Cầu Giấy, Hà Nội</p>
                     </div>
                     <div className='btn-pro-sn'></div>
-
                     <p className='pro-txtad-cm'> 
                     Vivamus volutpat eros pulvinar velit laoreet, 
                     sit amet egestas erat dignissim. Sed quis rutrum tellus, 

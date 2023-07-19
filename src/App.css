@@ -103,8 +103,110 @@
         margin-top: -150px;
     }
 
+    
    
 }
+
+/* Kiểu màn hình nhỏ hơn 767px */
+@media (max-width: 767px) {
+    .body-login {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .login_signinHapo {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+  
+    .sign {
+      font-size: 25px;
+    }
+  
+    .form-user,
+    .form-pass {
+        margin-left: 0;
+        width: 100%;
+    }
+  
+    .txtUser,
+    .txtPassword_signin {
+      margin-left: 0;
+    }
+  
+    .form-ip,
+    .form-pa {
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .btnSign {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+    }
+  
+    .forgot {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  
+    .txtForgot {
+      font-size: 18px;
+    }
+  
+    .btnIndex,
+    .btnIndex2,
+    .btnNew,
+    .btnNew2 {
+      display: none;
+    }
+  
+    .txtIn {
+      margin-top: 10px;
+      margin-left: 0;
+      font-size: 18px;
+    }
+  
+    .btnGoogle {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .txtGoogle {
+      margin-top: -15px;
+      margin-left: 0;
+      font-size: 18px;
+    }
+  
+    .btnGoogle img {
+      margin-top: -10px;
+      margin-left: -90px;
+    }
+  
+    .txtOr {
+      margin-top: 10px;
+      margin-left: 0;
+      font-size: 16px;
+    }
+  
+    .btnCreat {
+      margin-top: 10px;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  
+
+
+
+
 
 .backcolo {
     background: #F2F2F2;
