@@ -9,6 +9,7 @@ import Password from './page/Password';
 import Course_detail from './page/Course_detail';
 import CourseTeacher from './components/Course/CourseTeacher';
 import CourseReview from './components/Course/CourseReview';
+import Lesson from './components/Course/Lesson';
 function App() {
   return (
     <Routes>
@@ -21,6 +22,7 @@ function App() {
           <Route path='/course' element= {<Course_detail></Course_detail>}></Route>
           <Route path='/teacher' element = {<CourseTeacher></CourseTeacher>}></Route>
           <Route path='/review' element = {<CourseReview></CourseReview>}></Route>
+          <Route path='/lesson' element = {<Lesson></Lesson>}></Route>
     </Routes> 
  );
 

@@ -28,7 +28,12 @@ export default function CourseReview()
                 </a>    
                 <a href="/course" className="head-page-cour">
                     <p>Course detail</p> 
+                    <p className="btn-head-page-all"> > </p>
                 </a>  
+
+                <a href="/lesson" className="head-page-cour next-lesson">
+                    <p>Lesson detail</p> 
+                </a>
             </div>
             <div className="body-page-course">  
                 <div className="row body-page-head">
@@ -98,7 +103,7 @@ export default function CourseReview()
                                     <button className='btn-search-dev'>
                                         <p className='txt-search-dev'>Tìm kiếm</p>
                                     </button>
-                                    <a href="#" type="button" className='btn-slot-dev'>
+                                    <a href="/lesson" type="button" className='btn-slot-dev'>
                                         <p className='txt-slot-dev'>Tham gia khoá học</p>
                                     </a>
                                 </div>
